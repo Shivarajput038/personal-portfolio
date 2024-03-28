@@ -31,7 +31,7 @@ const Contact = () => {
             <input type="text" className='name' name='text'placeholder='your Name' />
             <input type="email" className='email' name='email'placeholder='your Email'/>
             <textarea className='msg' name='massage' rows='5' placeholder='Your Massage'></textarea>
-                <button type='submit' value='sand' className='submitBtn'> submit</button>
+                <button type='submit' value='send' className='submitBtn'> submit</button>
                 <div className="links">
                     <img src={FacebookIcon} alt="facebook" className="link" />
                     <img src={TwitterIcon} alt="twitter" className="link" />
